@@ -16,12 +16,10 @@ int main() {
             player = 'X';
         else
             player = 'O';
-        system("cls");
         if (check() != 0) break;
         show_board();
     }
     printf("winner: %c !!!", check());
-    system("pause");
     return 0;
 }
 
